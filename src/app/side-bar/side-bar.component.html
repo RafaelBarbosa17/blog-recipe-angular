@@ -1,0 +1,7 @@
+<aside class="side-bar">
+    <button class="prev-recipe">^</button>
+    <div class="cards-box" *ngFor="let r of recipes">
+        <img class="card-recipe" [src]="r.image" alt="">
+    </div>
+    <button class="next-recipe">v</button>
+</aside>

@@ -1,0 +1,28 @@
+header {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
